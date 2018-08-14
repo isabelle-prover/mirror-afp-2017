@@ -9,7 +9,29 @@
       and larger scientific developments, mechanically checked
       in the theorem prover Isabelle.
     </description>
-    <pubDate>16 Jul 2018 00:00:00 +0000</pubDate>
+    <pubDate>14 Aug 2018 00:00:00 +0000</pubDate>
+    <item>
+       <title>Minsky Machines</title>
+              <link>https://www.isa-afp.org/entries/Minsky_Machines.html</link>
+       <guid>https://www.isa-afp.org/entries/Minsky_Machines.html</guid>
+       <dc:creator> Bertram Felgenhauer       </dc:creator>
+       <pubDate>14 Aug 2018 00:00:00 +0000</pubDate>
+       <description>
+&lt;p&gt; We formalize undecidablity results for Minsky machines. To
+this end, we also formalize recursive inseparability.
+&lt;/p&gt;&lt;p&gt; We start by proving that Minsky machines can
+compute arbitrary primitive recursive and recursive functions. We then
+show that there is a deterministic Minsky machine with one argument
+and two final states such that the set of inputs that are accepted in
+one state is recursively inseparable from the set of inputs that are
+accepted in the other state. &lt;/p&gt;&lt;p&gt; As a corollary, the
+set of Minsky configurations that reach the first state but not the
+second recursively inseparable from the set of Minsky configurations
+that reach the second state but not the first. In particular both
+these sets are undecidable. &lt;/p&gt;&lt;p&gt; We do
+&lt;em&gt;not&lt;/em&gt; prove that recursive functions can simulate
+Minsky machines. &lt;/p&gt;</description>
+    </item>
     <item>
        <title>Pricing in discrete financial models</title>
               <link>https://www.isa-afp.org/entries/DiscretePricing.html</link>
@@ -533,36 +555,6 @@ of the Median-of-Medians algorithm for selecting the
 deterministically in linear time. The size bounds for the recursive
 call that lead to the linear upper bound on the run-time of the
 algorithm are also proven. &lt;/p&gt;</description>
-    </item>
-    <item>
-       <title>The Mason–Stother's Theorem</title>
-              <link>https://www.isa-afp.org/entries/Mason_Stothers.html</link>
-       <guid>https://www.isa-afp.org/entries/Mason_Stothers.html</guid>
-       <dc:creator> Manuel Eberl       </dc:creator>
-       <pubDate>21 Dec 2017 00:00:00 +0000</pubDate>
-       <description>
-&lt;p&gt;This article provides a formalisation of Snyder’s simple and
-elegant proof of the Mason&amp;ndash;Stothers theorem, which is the
-polynomial analogue of the famous abc Conjecture for integers.
-Remarkably, Snyder found this very elegant proof when he was still a
-high-school student.&lt;/p&gt; &lt;p&gt;In short, the statement of the
-theorem is that three non-zero coprime polynomials
-&lt;em&gt;A&lt;/em&gt;, &lt;em&gt;B&lt;/em&gt;, &lt;em&gt;C&lt;/em&gt;
-over a field which sum to 0 and do not all have vanishing derivatives
-fulfil max{deg(&lt;em&gt;A&lt;/em&gt;), deg(&lt;em&gt;B&lt;/em&gt;),
-deg(&lt;em&gt;C&lt;/em&gt;)} &lt; deg(rad(&lt;em&gt;ABC&lt;/em&gt;))
-where the rad(&lt;em&gt;P&lt;/em&gt;) denotes the
-&lt;em&gt;radical&lt;/em&gt; of &lt;em&gt;P&lt;/em&gt;,
-i.&amp;thinsp;e. the product of all unique irreducible factors of
-&lt;em&gt;P&lt;/em&gt;.&lt;/p&gt; &lt;p&gt;This theorem also implies a
-kind of polynomial analogue of Fermat’s Last Theorem for polynomials:
-except for trivial cases,
-&lt;em&gt;A&lt;sup&gt;n&lt;/sup&gt;&lt;/em&gt; +
-&lt;em&gt;B&lt;sup&gt;n&lt;/sup&gt;&lt;/em&gt; +
-&lt;em&gt;C&lt;sup&gt;n&lt;/sup&gt;&lt;/em&gt; = 0 implies
-n&amp;nbsp;&amp;le;&amp;nbsp;2 for coprime polynomials
-&lt;em&gt;A&lt;/em&gt;, &lt;em&gt;B&lt;/em&gt;, &lt;em&gt;C&lt;/em&gt;
-over a field.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
